@@ -95,24 +95,23 @@ plot2d3(1:length(r), r);
 
 ---
 
-### Output Graph:
-
-
----
 
 ### Output:
 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/79a2427e-8052-4f5b-9b58-a5189e171b52" />
 
 
 ---
 
 ### Tabulation:
-
+<img width="765" height="1280" alt="image" src="https://github.com/user-attachments/assets/2d3761e7-26b4-452f-8492-138086d29060" />
 
 ---
 
 ### Calculation:
+<img width="860" height="1280" alt="image" src="https://github.com/user-attachments/assets/0d8aa2d3-e85e-47ab-804c-a49594b90e33" />
 
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/c4739ba1-ffcf-4be6-ada3-eaad0f15e934" />
 
 ---
 
