@@ -45,22 +45,22 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 ```sci
 clear; clc; clear;
 function X = f(x)
-    X = 5 * x .* (3 + x).^2;
+    X = 3 * x .* (1-x).^3;
 end
 a = 0;
 b = 1;
 EX = intg(a, b, f);
 function Y = c(y)
-    Y = 5 * y .* (3 + y).^2;
+    Y = 3 * y .* (1-x).^3;
 end
 EY = intg(a, b, c);
 mprintf("i)   Mean of X = %.2f\n     Mean of Y = %.2f\n", EX, EY);
 function X = g(x)
-    X = x.^2 .* 5 .* (3 + x).^2;
+    X = x.^2 .* 3 .* (1- x).^3;
 end
 EX2 = intg(a, b, g);
 function Y = h(y)
-    Y = y.^2 .* 5 .* (3 + y).^2;
+    Y = y.^2 .* 3 .* (1-y).^3;
 end
 EY2 = intg(a, b, h);
 vX2 = EX2 - (EX)^2;
@@ -85,20 +85,20 @@ plot2d3(1:length(r), r);
 
 ### Output:
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/79a2427e-8052-4f5b-9b58-a5189e171b52" />
 
+![WhatsApp Image 2025-11-27 at 20 24 18_48affc73](https://github.com/user-attachments/assets/cccb8f7b-1c5b-4856-aed0-de86528c0f1e)
 
 ---
 
 ### Tabulation:
-<img width="765" height="1280" alt="image" src="https://github.com/user-attachments/assets/2d3761e7-26b4-452f-8492-138086d29060" />
+![WhatsApp Image 2025-11-27 at 19 28 46_cf38e64f](https://github.com/user-attachments/assets/abe8caa3-5e65-4fc3-af53-af296b419bfa)
+
+![WhatsApp Image 2025-11-27 at 19 28 07_c1150278](https://github.com/user-attachments/assets/f3868fa6-7fc6-475d-be5c-6292b13dee42)
 
 ---
 
 ### Calculation:
-<img width="860" height="1280" alt="image" src="https://github.com/user-attachments/assets/0d8aa2d3-e85e-47ab-804c-a49594b90e33" />
-
-<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/c4739ba1-ffcf-4be6-ada3-eaad0f15e934" />
+![WhatsApp Image 2025-11-27 at 19 27 32_364e1fb3](https://github.com/user-attachments/assets/38de750c-87a7-4106-9641-393e486bd86a)
 
 ---
 
