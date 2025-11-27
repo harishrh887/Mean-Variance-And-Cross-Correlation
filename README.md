@@ -43,42 +43,28 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 ### Program:
 
 ```sci
-clear;
-clc;
-clear;
-
+clear; clc; clear;
 function X = f(x)
-    X = 5* x .* (3 + x).^2;
+    X = 5 * x .* (3 + x).^2;
 end
-
 a = 0;
 b = 1;
-
 EX = intg(a, b, f);
-
 function Y = c(y)
     Y = 5 * y .* (3 + y).^2;
 end
-
 EY = intg(a, b, c);
-
 mprintf("i)   Mean of X = %.2f\n     Mean of Y = %.2f\n", EX, EY);
-
 function X = g(x)
     X = x.^2 .* 5 .* (3 + x).^2;
 end
-
 EX2 = intg(a, b, g);
-
 function Y = h(y)
     Y = y.^2 .* 5 .* (3 + y).^2;
 end
-
 EY2 = intg(a, b, h);
-
 vX2 = EX2 - (EX)^2;
 vY2 = EY2 - (EY)^2;
-
 mprintf("ii)  Variance of X = %.6f\n     Variance of Y = %.6f\n", vX2, vY2);
 
 x= input("type in the reference sequence="); 
@@ -91,6 +77,7 @@ r=corr(x,y,n1);
 
 clf();
 plot2d3(1:length(r), r);
+
 ```
 
 ---
