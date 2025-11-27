@@ -90,14 +90,14 @@ plot2d3(1:length(r), r);
 
 ---
 
-### Tabulation:
+### Caculation:
 ![WhatsApp Image 2025-11-27 at 19 28 46_cf38e64f](https://github.com/user-attachments/assets/abe8caa3-5e65-4fc3-af53-af296b419bfa)
 
 ![WhatsApp Image 2025-11-27 at 19 28 07_c1150278](https://github.com/user-attachments/assets/f3868fa6-7fc6-475d-be5c-6292b13dee42)
 
 ---
 
-### Calculation:
+### Tabulation:
 ![WhatsApp Image 2025-11-27 at 19 27 32_364e1fb3](https://github.com/user-attachments/assets/38de750c-87a7-4106-9641-393e486bd86a)
 
 ---
