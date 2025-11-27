@@ -51,7 +51,7 @@ a = 0;
 b = 1;
 EX = intg(a, b, f);
 function Y = c(y)
-    Y = 3 * y .* (1-x).^3;
+    Y = 3 * y .* (1-y).^3;
 end
 EY = intg(a, b, c);
 mprintf("i)   Mean of X = %.2f\n     Mean of Y = %.2f\n", EX, EY);
